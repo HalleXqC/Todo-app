@@ -1,0 +1,87 @@
+body{
+    margin: 0; 
+}
+
+.form{
+    width: 50% !important;
+    margin-top: 100px;
+}
+.completed{
+    text-decoration: line-through !important;
+}
+
+.content{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shorted{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+.theme-selector{
+    width: 200px !important;
+}
+.main_block{
+    height: 90vh;
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+}
+.focused_block{
+    position: relative;
+    width: 260px;
+    margin-left: -230px;
+    height: 50vh;
+    background-color: #212529;
+    transition: 0.5s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.focused_block span{
+    position: absolute;
+    right: 5px;
+    top: 40%;
+}
+.focused_block span button i{
+    color: white;
+    font-size: 25px;
+}
+.arrowSign{
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #212529;
+    padding: 0;
+}
+
+/* .focused_block:hover{
+    margin-left: 0;
+} */
+
+.focused_block.focusedBlockMove{
+    margin-left: 0;
+}
+.tasks_selector{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+.tasks_selector li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.tasks_selector li a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.tasks_selector li{
+    margin-bottom: 16px;
+}
+.newTask{
+    position: relative;
+    top: 20px;
+}
