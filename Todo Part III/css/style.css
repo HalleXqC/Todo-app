@@ -85,3 +85,14 @@ body{
     position: relative;
     top: 20px;
 }
+
+@media screen and (max-width: 700px){
+    .form{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 450px){
+    .form{
+        width: 90% !important;
+    }
+}

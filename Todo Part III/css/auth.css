@@ -9,3 +9,14 @@
 .card{
     width: 400px !important;
 }
+
+@media screen and (max-width: 470px){
+    .card{
+        width: 300px !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .card{
+        width: 250px !important;
+    }
+}
